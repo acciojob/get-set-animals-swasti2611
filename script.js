@@ -7,22 +7,22 @@ class Animal {
 		return this.species;
 	}
 	set species(species){
-		 this.species=species
+		 this.species=species;
 	}
 	makeSound(){
-		console.log(`${species}sounds animal`)
+		console.log(` the ${species}sounds a animal`);
 	}
 }
 
 class Dog extends Animal {
 	bark(){
-		console.log("woof")
+		console.log("woof");
 	}
 }
 
 class Cat extends Animal {
 	purr(){
-		console.log("purr")
+		console.log("purr");
 	}
 }
 
